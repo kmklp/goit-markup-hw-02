@@ -1,0 +1,36 @@
+body{
+background-color: #fff;
+font-family: 'Roboto', sans-serif;
+width: 1600px;
+background: #FFFFFF;
+}
+
+     /*!--ссилкі в шапці */
+.nav-links{
+   text-decoration: none;
+}
+
+.heder{
+    background-color:#ECECEC ;
+    width: 1600px;
+    height: 80px;
+
+}
+
+.logo{
+
+  
+    height:31px;
+    
+  padding-left: 215px;
+  
+  font-family: 'Raleway';
+font-size: 26px;
+line-height: 31px;
+text-decoration: none;
+color:#000000;
+
+}
+span{
+color:#2196F3;
+}
