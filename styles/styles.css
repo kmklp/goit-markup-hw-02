@@ -1,6 +1,10 @@
+:root {
+}
+
 body{
-background-color: #fff;
+
 font-family: 'Roboto', sans-serif;
+background-color: #fff;
 /*колір основного тексту #757575*/
 /*колір вторинного тексту #212121*/
 /*колір н1 #FFFFFF*/
@@ -9,7 +13,32 @@ font-family: 'Roboto', sans-serif;
 /*колір першого фону (основний) #FFFFFF*/
 /*колір другого фону #2F303A*/
 /*колір третього фону #F5F4FA*/
+
+}
+p{
+  color:#757575;
 }
 
      /*!--робота з ссилками в шапці */
 
+.logo-link:hover{
+       color:aqua;
+      
+}
+.logo-linc:focus{
+  color:black;
+}
+ .list-nav{
+  color:blueviolet;}
+ .list-nav .link:hover,
+ .list-nav .link:focus {
+        color:chartreuse;
+}
+.section-title{
+color:#212121;
+}
+  /*feature*/
+
+.feature-list.title{
+    color: #212121;
+}
