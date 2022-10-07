@@ -7,7 +7,7 @@ background: #FFFFFF;
 
      /*!--ссилкі в шапці */
 .nav-links{
-   text-decoration: none;
+  
 }
 
 .heder{
@@ -18,19 +18,20 @@ background: #FFFFFF;
 }
 
 .logo{
-
-  
-    height:31px;
-    
+  padding-top: 25px; 
   padding-left: 215px;
   
   font-family: 'Raleway';
 font-size: 26px;
 line-height: 31px;
-text-decoration: none;
 color:#000000;
 
 }
 span{
 color:#2196F3;
+}
+ a{  text-decoration: none;
+ 
+}
+li{text-decoration: none
 }
