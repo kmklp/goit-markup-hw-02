@@ -1,37 +1,15 @@
 body{
 background-color: #fff;
 font-family: 'Roboto', sans-serif;
-width: 1600px;
-background: #FFFFFF;
+/*колір основного тексту #757575*/
+/*колір вторинного тексту #212121*/
+/*колір н1 #FFFFFF*/
+/*колір акцент.логотіпа #2196F3
+                        #000000 * /
+/*колір першого фону (основний) #FFFFFF*/
+/*колір другого фону #2F303A*/
+/*колір третього фону #F5F4FA*/
 }
 
-     /*!--ссилкі в шапці */
-.nav-links{
-  
-}
+     /*!--робота з ссилками в шапці */
 
-.heder{
-    background-color:#ECECEC ;
-    width: 1600px;
-    height: 80px;
-
-}
-
-.logo{
-  padding-top: 25px; 
-  padding-left: 215px;
-  
-  font-family: 'Raleway';
-font-size: 26px;
-line-height: 31px;
-color:#000000;
-
-}
-span{
-color:#2196F3;
-}
- a{  text-decoration: none;
- 
-}
-li{text-decoration: none
-}
