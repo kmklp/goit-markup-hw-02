@@ -1,4 +1,7 @@
 :root {
+ --second-font: 'Roboto', sans-serif;
+ --section-fon:#2F303A;
+
 }
 
 body{
@@ -78,11 +81,10 @@ color: #2196F3;
 }
     /*робота с першою секцією-герой*/
 .section-first{
-background:#2F303A ;
+ background:var(--section-fon) ;
 }
 .section-title-first{
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -131,6 +133,7 @@ background:#2F303A ;
 
     /*третя секція Img*/
 .section-title{
+  font-family:var(--second-font);
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -141,6 +144,7 @@ background:#2F303A ;
 }
       /*четверта секция-наши сотрудники(section-employees)*/
 .title-employees{
+      
       font-weight: 500;
       font-size: 16px;
       line-height: calc(19 / 16);
@@ -164,7 +168,7 @@ background:#2F303A ;
 
    /*Робота з підвалом*/
 .footer{
-background: #2F303A;
+ background:var(--section-fon)
 }
 .adress{
   font-weight: 400;
