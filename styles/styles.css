@@ -34,7 +34,7 @@ list-style:none;}
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 1,192;
+line-height: calc(16 / 14);
 }
 .logo-color-first{
 color:#2196F3;
@@ -48,7 +48,7 @@ color:#000000 ;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,142;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
    color: #212121;
 }
@@ -60,7 +60,7 @@ color:#000000 ;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 1,142;
+line-height: calc(16 / 14);
 letter-spacing: 0.02em;
 
 color: #2196F3;
@@ -71,12 +71,117 @@ color: #2196F3;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,142;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   
   color: #757575;
 }
-
+    /*робота с першою секцією-герой*/
+.section-first{
+background:#2F303A ;
+}
+.section-title-first{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  /* or 136% */
   
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+}
+
+.section-first-btn{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  color: #FFFFFF;
+}
+    /*Робота з другою секцією*/
+.title-none{
+  display: none;
+}
+.title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #212121;
+}
+
+.advanteg-our{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+   letter-spacing: 0.03em;
+  color: #757575;
+}
+
+    /*третя секція Img*/
+.section-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
+}
+      /*четверта секция-наши сотрудники(section-employees)*/
+.title-employees{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: calc(19 / 16);
+      
+      text-align: center;
+      letter-spacing: 0.03em;
+      
+      color: #212121;
+}
+.employees{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+}
+
+   /*Робота з підвалом*/
+.footer{
+background: #2F303A;
+}
+.adress{
+  font-weight: 400;
+  font-size: 14px;
+  line-height:calc(24v / 14);
+  letter-spacing: 0.03em;
+  
+  color: #FFFFFF;
+}
+.footer-nav{
+  font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+
 
     
