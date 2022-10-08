@@ -14,31 +14,69 @@ background-color: #fff;
 /*колір другого фону #2F303A*/
 /*колір третього фону #F5F4FA*/
 
+} 
+
+     /*!--робота з текстом в  ссилках в шапці */
+.link{
+  text-decoration: none;
 }
-p{
-  color:#757575;
+.link:hover,
+.link:focus{
+
+color:coral;
 }
 
-     /*!--робота з ссилками в шапці */
+.list{
+list-style:none;}
 
-.logo-link:hover{
-       color:aqua;
-      
+.logo-link{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1,192;
 }
-.logo-linc:focus{
-  color:black;
+.logo-color-first{
+color:#2196F3;
 }
- .list-nav{
-  color:blueviolet;}
- .list-nav .link:hover,
- .list-nav .link:focus {
-        color:chartreuse;
+.logo-color-second{
+color:#000000 ;
 }
-.section-title{
-color:#212121;
-}
-  /*feature*/
 
-.feature-list.title{
-    color: #212121;
+.heder-nav-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,142;
+  letter-spacing: 0.02em;
+   color: #212121;
 }
+
+
+
+.header-nav-mail{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,142;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+ 
+.header-nav-tel{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,142;
+  letter-spacing: 0.02em;
+  
+  color: #757575;
+}
+
+  
+
+    
