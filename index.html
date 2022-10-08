@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-     <link rel="stylesheet" href="./styles/styles.css">
+     
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Ms+Madi&family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <header class="heder">
     
-        <nav class="nav-links">
-            <div class="logo">
-            <a href="index.html"> <span>Web</span>Studio </a>
-            </div> 
-          <ul >
-            <li><a href="Студія">Студія</a></li>
-            <li><a href="Портфоліо">Портфоліо</a></li>
-            <li><a href="Контакти">Контакти</a></li>
+        <nav >
+        
+            <a href="index.html" class="logo-link"> <span>Web</span>Studio </a>
+            
+          <ul class="list-nav">
+            <li><a href="Студія" class="link">Студія</a></li>
+            <li><a href="Портфоліо" class="link">Портфоліо</a></li>
+            <li><a href="Контакти" class="link" >Контакти</a></li>
           </ul>
         </nav>
           <ul>
@@ -34,18 +35,18 @@
     <main>
              <!--секці 1, мабуть треба div?-->
     
-    <section>
-        <h1>
+    <section class="section">
+        <h1 class="section-title">
             Ефективні рішення для вашого бізнесу
         </h1>
         <button type="button">замовити послугу</button>
     </section>
           <!--секція 2-->
-    <section>
-       <h2>наши переваги</h2>
-     <ul>
+    <section class="section">
+       <h2 class="section-title">наши переваги</h2>
+     <ul class="feature-list">
         <li>
-            <h3>увага до діталей</h3>
+            <h3 class="title">увага до діталей</h3>
             <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції</p>
         </li>
         <li>
@@ -70,8 +71,8 @@
     </section>
     
                <!--секція 3, просто фото-->
-    <section>
-        <h2>чим ми займаємось</h2>
+    <section class="section">
+        <h2 class="section-title" >чим ми займаємось</h2>
        <ul> 
           <li> <img  src="./img/img1.jpg" alt="работа за компьютером" 
            width="370">
@@ -86,8 +87,8 @@
 
     </section>
       <!--секція 4, фото сотрудників-->
-    <section>
-        <h2>наша команда</h2>
+    <section class="section">
+        <h2 class="section-title">наша команда</h2>
         <ul>
             <li><img src="./img/img4.jpg" alt="наш сотрудник Ігор Дем'яненко" width="270">
                 <h3>Ігор Дем'яненко</h3>
