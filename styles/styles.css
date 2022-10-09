@@ -194,6 +194,50 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
+     /*СТИЛІ ДЛЯ ПОРТФОЛІО*/
 
+    /*Стилізація кнопок*/
+.portfolio-section{
+  background: #F5F5F5;
+ }
+.portfolio-btn{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height:calc(26 / 16);
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.portfolio-btn-link:hover,
+.portfolio-btn-link:focus{
+   color:#FFFFFF;
+   background-color: #2196f3;
+}
+
+.portfolio-titles{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  /* identical to box height, or 200% */
+  
+  letter-spacing: 0.06em;
+  
+  color: #212121;
+}
+
+.portfolio-item{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+}
 
     
