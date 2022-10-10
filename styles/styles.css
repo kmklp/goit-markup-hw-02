@@ -1,9 +1,12 @@
 :root {
  --second-font: 'Roboto', sans-serif;
- --colorfon-hiro:#FFFFFF;
+ --colorfont-hiro: #FFFFFF;
  --colorfont-section-title:#212121;
+ 
+ --colorfon-hiro:#FFFFFF;
  --section-fon-second:#2F303A;
  --section-fon-third:#F5F4FA;
+ 
  
 
 }
@@ -33,7 +36,7 @@ background: #FFFFFF;
 .link:hover,
 .link:focus{
 
-color:coral;
+color:#2196F3;
 }
 
 .list{
@@ -70,7 +73,7 @@ font-size: 14px;
 line-height: calc(16 / 14);
 letter-spacing: 0.02em;
 
-color: #2196F3;
+color:#757575;
 }
  
 .header-nav-tel{
@@ -82,15 +85,13 @@ color: #2196F3;
   
   color: #757575;
 }
-.section-background{
-background:var(--colorfon-hiro);
-}
+
     /*робота с першою секцією-герой*/
 .section-first{
  background:var(--section-fon-second) ;
 }
 .section-title-first{
-  font-family: var( --second-font);
+  font-family: var( --colorfont-hiro);
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -197,11 +198,9 @@ color: rgba(255, 255, 255, 0.6);
      /*СТИЛІ ДЛЯ ПОРТФОЛІО*/
 
     /*Стилізація кнопок*/
-.portfolio-section{
-  background: #F5F5F5;
- }
+ 
 .portfolio-btn{
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height:calc(26 / 16);
