@@ -38,6 +38,11 @@ background: var(--colorfont-hiro) ;
 
 color:#2196F3;
 }
+.link-first-btn:hover,
+.link-first-btn:focus{
+     font-family: inherit;
+     background:#FFFFFF;
+}
 
 .list{
 list-style:none;}
@@ -86,7 +91,7 @@ color:#757575;
   color: #757575;
 }
 
-.active
+
 
 
     /*робота с першою секцією-герой*/
