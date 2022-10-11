@@ -15,8 +15,8 @@ body{
 
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
-letter-spacing: 0,03 em;
-background: #FFFFFF;
+letter-spacing: 0,03em;
+background: var(--colorfont-hiro) ;
 
 /*колір основного тексту #757575*/
 /*колір вторинного тексту #212121*/
@@ -54,11 +54,13 @@ color:#2196f3;
 .logo-color-second{
 color:#000000 ;
 }
+.logo-colorsecond-footer{
+ color:#FFFFFF;
+}
 
 .heder-nav-link{
   font-family: var( --second-font);
   font-weight: 500;
-  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
    color: #212121;
@@ -69,7 +71,6 @@ color:#000000 ;
 .header-nav-mail{
   font-family: var( --second-font);
 font-weight: 500;
-font-size: 14px;
 line-height: calc(16 / 14);
 letter-spacing: 0.02em;
 
@@ -79,12 +80,14 @@ color:#757575;
 .header-nav-tel{
   font-family: var( --second-font);
   font-weight: 500;
-  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   
   color: #757575;
 }
+
+.active
+
 
     /*робота с першою секцією-герой*/
 .section-first{
@@ -117,11 +120,12 @@ color:#757575;
   color: #FFFFFF;
   background: #2196F3;
 }
+
+.active-link{
+  color:#2196f3;
+}
  
     /*Робота з другою секцією*/
-.title-none{
-  display: none;
-}
 .title{
   font-weight: 700;
   font-size: 14px;
@@ -180,7 +184,6 @@ color:#757575;
  background:var(--section-fon-second);
 }
 .adress{
-  font-size: 14px;
   font-style: normal;
   line-height:calc(24v / 14);
   letter-spacing: 0.03em;
@@ -188,7 +191,6 @@ color:#757575;
   color: #FFFFFF;
 }
 .footer-nav{
-font-size: 14px;
 font-style: normal;
 line-height: calc(24 / 14);
 letter-spacing: 0.03em;
